@@ -1,0 +1,369 @@
+:root{
+    --linear-bg:  #201E1C;
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D4;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-black-1: #282623;
+    --grey:#BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    background-color: #b8b4b411;
+}
+.contenedor-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 334px;
+    background:linear-gradient(207.6deg, var(--linear-bg) 16.5%,var(--bitcoin-orange) 100% );
+}
+h1{
+    font-size: none;
+}
+.titulo-logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bitcoin-orange);
+    padding: 40px;
+    margin-bottom: 20px;
+}
+.titulo-logo h1{
+    font:bold;
+    font-size: 2.6rem;
+}
+.logo-papa{
+    width: 4.057rem;
+    height: 2.4rem;
+}
+.texto-1-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    margin-bottom: 50px;
+    width: 95%;
+}
+.texto-2-header{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: var(--soft-orange);
+    width: 95%;
+}
+/* aca vamos a poner el tema de todo lo que vamos viendo de el header para que despues no me olvide de poner nada mas lo que vamos a hacer es que vamos a completar la parte de el main y listo todo ez pizi */
+.seccion-planes{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.select{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid var(--grey);
+    background-color: var(--off-white);
+    padding: 1.2rem 1.6rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 18px;
+}
+.bitcoin{
+    margin: 6rem 0 4rem;
+}
+.taza-cambios{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color:var(--linear-bg);
+}
+.todas-monedas{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--grey);
+    margin-top: 3rem;
+}
+/* lo que vamos a editar en esta parte es todo el cuadro que esta mostrando los datos que tenemos de la monedas las cuales creo que puede llegar a ser la parte mas complicada de todo lo que vimos de css creo que si lo se hacer pero despues nos vamos a ver todos los videos de esta parte y a rendir la que nos falta vamos que vamos gorda */
+.tabla-monedas{
+    width: 19.7rem;
+    height: 15.9rem;
+}
+.cuadro-monedas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+.thead th{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+}
+.tbody{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 19px;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+.precio{
+    color: var(--soft-blue);
+    font-size: 1.4rem;
+    text-shadow: .5px .5px 10px black;
+}
+.actualizacion{
+    background-color: var(--soft-orange);
+    font-size: 1.2rem;
+    margin-top: 1.1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-bottom: 7rem;
+} 
+.span-info{
+    font-weight: bold;
+}
+
+/* bueno vamos con la siguiente parte de los seccion ahora lo que vamos a editar es la parte de todo lo que vamos a dar informacion a la hora de que la gente haga scroll por lo que vamos a cambiar el color de fondo y vamos a poner a disposision de ellos la parte de lo que quieren llegar a ver esto todo lo estamos haciendo para celulares despues lo que vamos a hacer es la parte de abajo si mal no recuerdo lo que vamos a hacer es que vamos a poner una imagen y despues los precios jajaja vamos que vamos */
+.otro-seccion{
+    background-color: var(--linear-bg);
+}
+.brindamos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+.titulo-creamos{
+    margin: 8rem 0 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--just-white);
+    line-height: 2.6rem;
+
+}
+.subtitulo{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:var(--grey);
+    margin: 3rem 0;
+}
+.div-todo div{
+    width: 30rem;
+    height: 15.2rem;
+    background-color: var(--warm-black-1);
+    margin: 2rem 0 2em 0;
+    border-radius: 1rem;
+    border: .1rem solid #0009;
+    box-shadow: 0 1px #0001;
+    text-align: left;
+    padding: 1.4rem 1.6rem 2.2rem;
+}
+.div-todo div p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    margin: 1rem 0;
+}
+.div-todo div span{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 18px;
+    color:var(--grey)
+}
+/* aca me falto poner la parte del seccion de muher pero bueno aca estamos lo que pasa es que como era chico, noc se me olvido ponerlo asi que bueno vamos a seguir haciendo las cosa antes de que me canse mucho */
+.seccion-imagen-mujer{
+    position: relative;
+    width: 100%;
+    height: 30.6rem;
+}
+.seccion-imagen-mujer p{
+    position: absolute;
+    font-size: 2.4rem;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just-white);
+    top: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+.imagen-de-chica{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+/* vamos a editar la ultima parte de los seccion y empezamos con los footers asi que todo chill y vamos a por ello lajajajja se que estas cansado pero estas bien de esa manera eso te va a dar diciplina */
+.seccion-final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+}
+.escoge-plan{
+    width: 95%;
+}
+.escoge-plan p{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--linear-bg);
+    margin-bottom: 2rem;
+}
+.escoge-plan span{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--grey);
+    margin: 2rem 0;
+}
+.contenedor-plan{
+    margin-top: 4rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22rem;
+    height: 30rem;
+    background-color: var(--just-white);
+    border: 1px solid var(--grey);
+    border-radius: 1rem;
+}
+.recomendado{
+    position: absolute;
+    top: -1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12rem;
+    color: var(--just-white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    background-color: var(--bitcoin-orange);
+    padding: .7rem;
+    border-radius: .5rem;
+}
+.pago-anual{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.pago-anual p:nth-child(2){
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    margin: 1.5rem;
+}
+.pago-anual p:nth-child(2) span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--grey);
+}
+.ahorras {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--grey);
+    margin: 1.5rem;
+}
+.elegilo li{
+    list-style: none;
+    padding: 1.5rem;
+    border: var(--bitcoin-orange) .3rem solid;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+.elegilo li a {
+    text-decoration: none;
+    color:var(--linear-bg);
+}
+.elegilo .flecha{
+    color: var(--bitcoin-orange);
+    padding-left: 1.5rem;
+    font-weight: bold;
+}
+/* bueno ya llegamos al final asi que vamos a terminar de hacerlo a esto rapido asi nos ponemos a estudiar otra cosa vamos que vamos */
+.footer{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10rem;
+    background-color: var(--bitcoin-orange);
+}
+.enlaces-sociales a{
+    text-decoration: none;
+    color: var(--just-white);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding: .7rem;
+    display: inline-block
+}
+.enlaces-sociales li{
+    list-style: none;
+}
+.la-ultima{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.la-ultima p{
+    color: var(--just-white);
+    margin-top: 1rem;
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.la-ultima .papa-lay{
+    width: 3rem;
+}
+
+
+
+
+
+
+
+
