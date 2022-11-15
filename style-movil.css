@@ -118,6 +118,15 @@ h1{
     justify-content: center;
     margin-top: 3.5rem;
 }
+.contenedor-flecha{
+    display: flex;
+    align-items: center;
+}
+.flecha-derecha{
+    transform: translateX(1rem);
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
 .thead th{
     font-size: 1.8rem;
     font-weight: bold;
@@ -234,6 +243,7 @@ h1{
     justify-content: center;
     text-align: center;
     margin-top: 4rem;
+    overflow: hidden;
 }
 .escoge-plan{
     width: 95%;
@@ -244,6 +254,12 @@ h1{
     line-height: 2.6rem;
     color: var(--linear-bg);
     margin-bottom: 2rem;
+}
+.estos-planes{
+    display: flex;
+}
+.segundo{
+    transform: scale(.9);
 }
 .escoge-plan span{
     font-size: 1.4rem;
@@ -264,6 +280,7 @@ h1{
     background-color: var(--just-white);
     border: 1px solid var(--grey);
     border-radius: 1rem;
+    cursor: pointer;
 }
 .recomendado{
     position: absolute;
