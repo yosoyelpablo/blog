@@ -138,12 +138,26 @@ h1{
     font-weight: 500;
     line-height: 19px;
     color: var(--grey);
-    background-color: var(--just-white);
+    text-shadow: 1px 1px 5px black;
+    background:radial-gradient(var(--grey), #333);
 }
 .precio{
     color: var(--soft-blue);
     font-size: 1.4rem;
     text-shadow: .5px .5px 10px black;
+}
+/* vamos a bordear las 4 esquinas de las parted de los extremos del cuadro ya que se tienen que hacer a mano por eso lo estoy escribiendo como anotecion */
+.top-left{
+    border-top-left-radius: 5px;
+}
+.top-rightd{
+    border-top-right-radius: 5px;
+}
+.bottom-left{
+    border-bottom-left-radius: 5px;
+}
+.bottom-rightd{
+    border-bottom-right-radius: 5px;
 }
 .actualizacion{
     background-color: var(--soft-orange);
