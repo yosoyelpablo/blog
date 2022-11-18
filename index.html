@@ -4,179 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-movil.css" media="(max-width:480px)">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="contenedor-header">
-        <div class="titulo-logo">
-            <img src="Group 16.png" alt="logo de la papa" class="logo-papa">
-            <h1>batatabit</h1>
-        </div>
-        <div class="texto-1-header">
-            <p>
-                la proxima revolucion en el intercambio de criptomonedas
-            </p>
-        </div>
-        <div class="texto-2-header">
-            <p>batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-        </div>
-    </header>
-    <main>
-        <section class="seccion-planes">
-            <div>
-               <select name="lista" id="planes" class="select">
-                <option value="planes">conoce nuestros planes</option>
-                <option value="anual">anual</option>
-                <option value="semestral">semestral</option>
-                <option value="bi mestral">bi mestral</option>
-                <option value="mensual">mensual</option>
-               </select>
+    <header>
+        <nav class="header__nav-enlaces">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitch"></i></a></li>
+            </ul>
+        </nav>
+        <section class="header__section-logo">
+            <div class="header__section-div-logo">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./assets/descarga-removebg-preview.png" alt="astronauta logo" class="logo">
+                                <h1>Soy<span>Elpoo</span></h1>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div>
-                <img src="./Bitcoin.png" alt="imagen-bitcoin" class="bitcoin">
-            </div>
-            <div class="taza-cambios">
-                <p>Visibilizamos todas las tasas de cambio</p>
-            </div>
-            <div class="todas-monedas">
-                <p>traemos informacion en tiempo real de las casas de cambio y las monedas mas importantes del mundo</p>
-            </div>
-            <div>
-                
-            </div>
-            <div class="cuadro-monedas">
-                <div class="contenedor-flecha">
-                    <table class="tabla-monedas">
-                        <thead class="thead">
-                            <tr>
-                                <th>monedas</th>
-                            </tr>
-                        </thead>
-                        <tbody class="tbody">
-                            <tr>
-                                <td class="top-left">Bitcoin</td>
-                                <td class="precio ">$1.96 </td>
-                                <td class="top-rightd"><img src="./trending-down 1.png" alt="perdida"></td>
-                            </tr>
-                            <tr>
-                                <td>ethereum</td>
-                                <td class="precio">$0.07</td>
-                                <td><img src="./trending-up 1.png" alt="ganancia"></td>
-                            </tr>
-                            <tr>
-                                <td>Ripple</td>
-                                <td class="precio">$2.15</td>
-                                <td><img src="./trending-down 1.png" alt="perdida"></td>
-                            </tr>
-                            <tr>
-                                <td class="bottom-left">Stellar</td>
-                                <td class="precio">$4.96</td>
-                                <td class="bottom-rightd"><img src="./trending-down 1.png" alt="perdida"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div>
-                        <img src="./mdi_keyboard_arrow_down.png" alt="flecha hacia derecha" class="flecha-derecha">
-                    </div>
-                </div>
-                
-                <div class="actualizacion">
-                    <p><span class="span-info">Actualizado:</span> 19 Julio 23:45</p>
-                </div>
-            </div>
-        </section>
-        <!-- vamos a crear otra parte en la que todo la que vamos a cambiar el color del backgroun y despues le vamos a empesar a agragar todas las cosas que tiene como el reloj el ofo y esas cosa y dividir las cosas para que paresca que sabemos hacer las cosas de una manera muy natural jajajaj vamos a ver que es lo que sale -->
-        <section class="otro-seccion">
-            <div class="brindamos">
-                <div class="titulo-brindamos">
-                    <div>
-                        <p class="titulo-creamos">Creamos un producto sin comparacion.</p>
-                    </div>
-                    <div>
-                        <p class="subtitulo">Confiable y diseñado para su uso diario</p>
-                    </div>
-                </div>
-                <div class="div-todo">
-                    <div class="tiempo-real">
-                        <img src="./clock 1.png" alt="">
-                        <p>Tiempo real</p>
-                        <span> API toma informacion minuto a minuto sobre las tasas que mas determinan el comportamiento.</span>
-                    </div>
-                    <div class="no-hay-tasas-escondidas">
-                        <img src="./eye 1.png" alt="">
-                        <p>No hay tasas escondidas</p>
-                        <span>ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estas adquiriendo</span>
-                    </div>
-                    <div class="compara-monedas">
-                        <img src="./dollar-sign 1.png" alt="">
-                        <p>Compara monedas</p>
-                        <span>No mas rumores, con Babtabit sabras el valor real de cada moneda en el mercado actual.</span>
-                    </div>
-                    <div class="informacion-confiable">
-                        <img src="./check-circle 1.png" alt="">
-                        <p>Informacion confiable</p>
-                        <span>nuestras fuentes entan 100% verificadas y continuamos auditando su contenido mientras se actualizan.</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- bueno lo que vamos a hacer aca es la parte de la foto que tiene el logo despues de eso vamos a hacer el tema de los precios pero creo que tambien vamos a tener que editar todo el tema de las flechas y esas cosas pero ya lo vamos a ver todo sea por la causa jajaja bueno ya escribi mucho asi que ahora vamos a darle con todo no nos distraigamos entendido gordo jajaj tk bueno ahora posta me voy a seguir asiendo el trabajo  -->
-        <section class="seccion-imagen-mujer">
-            <p>Conocelo hoy.</p>
-            <img src="./bitcoinbaby 1.png" alt="imagen de chica con dos monedas en los ojos" class="imagen-de-chica">
-        </section>
-        <!-- bueno esta es la parte del ultimo section entonces vamos a hacerlo de una manera tranquila y que pueda ser facil para que no todos lo que hagamos lo hagamos al pedo pero bueno por lo menos estamos mejor cada diam, falta afianzar un par de cosas pero se puede asi que tranqui y no te buelvas loco segui como venis que vas bien sos el mejor ahora te dejo para que sigas haciendo el trabajos despues vamos a ver como estas -->
-        <section class="seccion-final">
-            <div class="escoge-plan">
-                <p>Escoge el plan que mejor se ajuste a ti.</p>
-                <span>Cualquier plan te da acceso completo a nuestra plataforma.</span>
-            </div>
-            <div class="estos-planes">
-                <div class="contenedor-plan segundo">
-                </div>
-                <div class="contenedor-plan">
-                    <div class="recomendado">
-                        <p>recomendado</p>
-                    </div>
-                    <div class="pago-anual">
-                        <p>Pago Anual</p>
-                        <p><span>$</span>99</p>
-                    </div>
-                    <div class="ahorras">
-                        <p>Ahorras $129 comparado al plan mensual</p>
-                    </div>
-                    <div class="elegilo">
-                        <nav>
-                            <ul>
-                                <li><a href="">Escoger este <i class="fa-solid fa-arrow-right flecha"></i></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="contenedor-plan segundo">
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div>
-            <nav class="enlaces-sociales">
+            <nav class="header__logo-parte-inferior">
                 <ul>
-                    <li><a href="">Linkedin</a></li>
-                    <li><a href="">Crunchbase</a></li>
-                    <li><a href="">Hackernews</a></li>
+                    <li><a href="">sobre el poo</a></li>
                 </ul>
             </nav>
-        </div>
-        <div class="la-ultima">
-            <img src="./Group 16.png" alt="logotipo de la marca" class="papa-lay">
-            <p>®Batatabit 2022</p>
-        </div>
-    </footer>
+        </section>
+    </header>
+    <main>
+            <h1>todas las comidas que vas a encontrar dentro de este blog son de otro planet. 🪐</h1>
+            <div>
+                <button>entrar ya</button>
+            </div>
+    </main>
 </body>
 </html>
