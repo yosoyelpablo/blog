@@ -17,8 +17,8 @@ body{
 .header__nav-enlaces li{
     display: inline-block;
     margin: 0 40px;
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
 }
@@ -27,8 +27,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.7rem;
-    padding: 3px;
+    font-size: 3rem;
+    padding: 5px;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -42,12 +42,12 @@ body{
 .header__section-div-logo a{
     display: flex;
     align-items: center;
-    font-size: 2.4rem;
+    font-size: 4.2rem;
     color: #ddf9;
     text-decoration: none;
 }
 .logo{
-    width: 100px;
+    width: 160px;
 }
 .header__section-div-logo span{
     color: #cc3555cc;
@@ -63,13 +63,13 @@ body{
     margin-right: 20px;
 }
 .header__logo-parte-inferior a{
-    font-size: 1.7rem;
+    font-size: 3rem;
     text-decoration: none;
     color: #fff7;
 }
 /* ahora lo que vamos a hacer es empezar a realizar la parte del main con la imagen y todo lo que teneos que ponerle asi que vamos a darle jajajaj re influercer pero bueno eso no es a lo que vinimos asi que vamos a darle posta */
 main {
-    height: calc(100% - 100.8px - 54px);
+    height: calc(100% - 161.48px - 69.98px);
     width: 100%;
     background-image: url(/assets/astronauta.webp);
     background-size: cover;
@@ -83,7 +83,7 @@ main {
 main h1{
     width: 70%;
     color: white;
-    font-size: 4rem;
+    font-size: 8rem;
     text-shadow: 1px 1px 10px black, 1px 1px 10px black;
 }
 main div{
@@ -91,13 +91,13 @@ main div{
     text-align: center;
     margin-top: 40px;
 }
-main button{
-    width: 200px;
-    height: 50px;
+main .button{
+    width: 300px;
+    height: 75px;
     background-color: #0009;
     border: .01px solid white;
     border-radius: 50px;
     color: white;
-    font-size: 1.8rem;
-
+    font-size: 3rem;
+    cursor: pointer;
 }
